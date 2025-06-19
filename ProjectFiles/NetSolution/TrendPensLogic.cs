@@ -11,6 +11,9 @@ using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.WebUI;
 using FTOptix.Report;
+using FTOptix.Alarm;
+using FTOptix.SerialPort;
+using FTOptix.EventLogger;
 using OpcUa = UAManagedCore.OpcUa;
 
 #endregion

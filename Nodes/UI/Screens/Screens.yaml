@@ -111,3 +111,4 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 40.0
+- File: AlarmWidgets/AlarmWidgets.yaml

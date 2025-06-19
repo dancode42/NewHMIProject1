@@ -4,6 +4,9 @@ Children:
 - Name: Temperatura
   Type: BaseDataVariableType
   DataType: Int32
+- Name: Motor1Alarm
+  Type: BaseDataVariableType
+  DataType: Int32
 - File: Types/Types.yaml
 - Name: MyMotor1
   Id: g=1d73c337bcd1f29bd9bbd5ced02c301c

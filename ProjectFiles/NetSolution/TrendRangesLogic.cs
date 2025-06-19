@@ -16,6 +16,9 @@ using FTOptix.SQLiteStore;
 using FTOptix.WebUI;
 using System.Collections;
 using FTOptix.Report;
+using FTOptix.Alarm;
+using FTOptix.SerialPort;
+using FTOptix.EventLogger;
 
 #endregion
 

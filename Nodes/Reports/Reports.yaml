@@ -1611,7 +1611,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: "/Objects/NewHMIProject1/DataStores/EmbeddedDatabase1"
+        Value: "/Objects/NewHMIProject1/DataStores/TempDB"
         Children:
         - Name: ItemKind
           Type: PropertyType
