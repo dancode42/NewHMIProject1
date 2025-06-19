@@ -322,7 +322,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/NewHMIProject1/UI/Pages/Page3"
+          Value: "/Objects/NewHMIProject1/UI/Pages/Motors"
           Children:
           - Name: Kind
             Type: PropertyType

@@ -4,3 +4,20 @@ Children:
 - Name: Temperatura
   Type: BaseDataVariableType
   DataType: Int32
+- File: Types/Types.yaml
+- Name: MyMotor1
+  Id: g=1d73c337bcd1f29bd9bbd5ced02c301c
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+- Name: MyMotor2
+  Id: g=f60fccd051e04dcfe8762919d62d59f6
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
