@@ -1,0 +1,4 @@
+Name: Libraries
+Type: FolderType
+Children:
+- File: AdvancedTrend/AdvancedTrend.yaml
