@@ -139,16 +139,24 @@ Project:
    Uri: 'urn:FTOptix:EventLogger:Net'
    Module: FTOptix.EventLogger.Net
    Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  36:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 7299
-  Objects: 1607
-  ObjectTypes: 37
-  Variables: 5641
+  TotalNodeCount: 9511
+  Objects: 2021
+  ObjectTypes: 56
+  Variables: 7402
   VariableTypes: 0
   DataTypes: 0
-  Methods: 14
-  References: 96
+  Methods: 32
+  References: 152
   ReferenceTypes: 0
-  Files: 30
+  Files: 34
  Nodes:
  - File: Nodes/NewHMIProject1.yaml

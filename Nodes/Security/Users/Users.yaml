@@ -1,3 +1,48 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=27088d9b4855da59d35b00584001b3f5
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=c0c96309fdd9959f12e3fe0e3bd82e01
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=e87df99d21b5601b96f15836b780900d
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=a2ed7eb336ed70059dfb6143f800265c
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=8dc1f2ce1845b0fe0bb9ad4560fe0c57
+- Name: User2
+  Id: g=ad8650950f2dd211a59a684ce1d57785
+  Type: UserType
+  Children:
+  - Name: Language
+    Id: g=3014430a686cfa46d4109031fcb5bbb9
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "de-DE"
+  - Name: MeasurementSystem
+    Id: g=07bcc5ae59c7205ea2c62ec8b628cef0
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=6b4222db4adf5501453b6f008831dfa1

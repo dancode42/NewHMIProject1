@@ -117,7 +117,7 @@ Children:
     - Name: Active
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":7,"TextId":"ActiveState"}
+      Value: {"NamespaceIndex":7,"TextId":"Spanish"}
     - Name: ToSeverity
       Type: BaseDataVariableType
       DataType: LocalizedText

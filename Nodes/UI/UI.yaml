@@ -403,6 +403,19 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/TeamMaintenance"
       - Name: Panel9
         Type: NavigationPanelItem
         Children:
@@ -413,6 +426,66 @@ Children:
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/NewHMIProject1/UI/Pages/Alarm_History"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel10
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject1/UI/Pages/Recipes"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel11
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject1/UI/Pages/LanguageSwitching"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel12
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject1/UI/Pages/UserLogin"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel13
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/NewHMIProject1/UI/Pages/UserManagement"
           Children:
           - Name: Kind
             Type: PropertyType

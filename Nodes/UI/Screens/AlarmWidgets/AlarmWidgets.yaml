@@ -4002,7 +4002,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":7,"TextId":"Acknowledge"}
+          Value: {"NamespaceIndex":7,"TextId":"English"}
       - Name: BottomMargin
         Type: BaseVariableType
         DataType: Size
